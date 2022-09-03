@@ -5,12 +5,12 @@ def square(n):
     c=math.sqrt(2)*n
     d=a,b,c
     print(tuple(d))
-square(n=int(input('Сторона=')))
+square(int(input('Сторона=')))
 
 '''def is_year_leap(n):
     a=n % 4 == 0 and n % 100 != 0 or n % 400 == 0
     print(a)
-is_year_leap(n=int(input()))'''
+is_year_leap(int(input()))'''
 
 '''def season(n):
    if n == 12 or 1 <= n <= 2:
